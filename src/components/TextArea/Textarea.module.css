@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-row-gap: 12px;
+  font-size: 16px;
+}
+
+.container__titleText {
+  opacity: 0.65;
+}
+
+.required {
+  color: hsl(169, 82%, 27%);
+}
+
+.container__textArea {
+  padding: 1rem;
+  border: 1px solid hsl(186, 15%, 59%);
+  outline: none;
+  border-radius: 8px;
+  resize: none;
+  height: 80px;
+}
+
+.container__textArea:focus {
+  outline: none;
+  border: 1px solid hsl(187, 24%, 22%);
+}

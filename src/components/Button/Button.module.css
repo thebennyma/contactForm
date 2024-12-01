@@ -1,0 +1,25 @@
+.buttonStyle {
+  display: inline-block;
+  background-color: hsl(169, 82%, 27%);
+  color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttonStyle:active {
+  position: relative;
+  top: 1px;
+}
+
+button:disabled,
+button:disabled:active {
+  background-color: #ccc;
+  cursor: not-allowed;
+  position: static;
+  top: 0;
+}

@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 14px;
+}
+
+.container__check {
+  width: 1rem;
+}
+
+input[type="checkbox"] {
+  accent-color: hsl(169, 82%, 27%);
+}
+
+.container__titleText {
+  opacity: 0.65;
+}
